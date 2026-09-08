@@ -18,4 +18,5 @@ Lab names and descriptions can be edited through the UI:
 
 The lab's Google Cloud Project ID (used for GCP resource naming) cannot be changed after creation.
 
-![Edit Organization](/images/Edit-Lab.png)
+![Edit Lab](/images/Edit-Lab.png)
+![Notifications Page](/images/Edit-Notifications.png)

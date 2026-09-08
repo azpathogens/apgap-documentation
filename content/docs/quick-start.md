@@ -72,6 +72,7 @@ To add a team member to your lab:
 1. Search for and select the user from the dropdown menu. If the user isn't found, they haven't been entered into the system yet. Ask your **Platform Admin** to create the user account.
 1. If the user is going to be a **Lab Director** or **Lab Collaborator**, select the corresponding button. If the user will not have either of those roles, select the **Bioinformatics User** in the Select Permissions dropdown menu.
 1. Click the **Assign User** box.
+1. Adjust the user's permissions as needed.
   
 
 ### If you're a Bioinformatics User
@@ -109,7 +110,7 @@ Your first actions after a fresh deployment should be:
 The full Admin Guide covers each of these in detail, including recovery procedures for failed lab provisioning.
 
 
-## Sequera
+## Seqera
 APGAP leverages **Seqera Platform** (formerly Nextflow Tower) to manage the execution of bioinformatics
 pipelines. Seqera Platform is built and supported by Seqera, the company, which was founded by the
 creators of Nextflow. Nextflow is an open-source workflow language widely used in
