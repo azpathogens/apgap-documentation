@@ -17,3 +17,10 @@ weight = 1
 1. Click **Add Organization** 
 
 ![Create Organization](/images/Add-Organization.png)
+
+Admins may also configure guidelines for requesting datasets from the organization.
+
+1. Navigate to the **Organization Management** page
+1. Press the **Configure Request Guidelines** button
+1. Fill in the **Request Guidelines** modal, including text that will be displayed to users when requesting datasets from the organization
+1. Click **Save Guidelines**
