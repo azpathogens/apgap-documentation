@@ -24,3 +24,7 @@ Admins may also configure guidelines for requesting datasets from the organizati
 1. Press the **Configure Request Guidelines** button
 1. Fill in the **Request Guidelines** modal, including text that will be displayed to users when requesting datasets from the organization
 1. Click **Save Guidelines**
+
+![Configure Request Guidelines](/images/Configure-Guidelines-Page.png)
+
+![Configure Request Guidelines](/images/Configure-Guidelines-Modal.png)
