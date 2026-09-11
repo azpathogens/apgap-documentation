@@ -15,7 +15,7 @@ Metadata tells APGAP what each sequence file represents — the organism, collec
 1. Click **Export Metadata**
 1. Click **Yes, Export**
 
-![Export Metadata](/images/export-metadata.png)
+![Export Metadata](/images/Export-Metadata.png)
 
 The CSV will download to your browser's default download folder. It's strongly recommended to rename the file before filling it in so you can track which batch it belongs to.
 
