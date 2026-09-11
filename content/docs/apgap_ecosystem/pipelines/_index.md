@@ -18,17 +18,17 @@ A common end-to-end flow through the pipelines section: pull raw sequencing data
 ```mermaid
 flowchart LR
     BS[Illumina BaseSpace]
-    BC["<b>basespace-copy</b><br/>ingest + compliance cascade"]
+    BC["basespace-copy<br/>ingest + compliance cascade"]
     LB[Lab analytical-dataset bucket]
     NB03[notebook 03<br/>viralrecon assembly]
     CG[Consensus FASTA]
-    TS["<b>tostadas</b><br/>VADR annotation + packaging"]
+    TS["tostadas<br/>VADR annotation + packaging"]
     NCBI[NCBI GenBank]
 
     BS --> BC --> LB --> NB03 --> CG --> TS --> NCBI
 
-    style BC fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
-    style TS fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style BC fill:#dbeafe,stroke:#3b82f6,stroke-width:3px,color:#1e3a8a
+    style TS fill:#dbeafe,stroke:#3b82f6,stroke-width:3px,color:#1e3a8a
 ```
 
 You don't have to walk every step in one session. Each pipeline works on data already sitting in the lab bucket, so you can, for example, run tostadas on a consensus produced by an external assembler rather than notebook 03 if that fits your workflow better.
