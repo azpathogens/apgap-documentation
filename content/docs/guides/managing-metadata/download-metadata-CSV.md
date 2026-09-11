@@ -12,11 +12,10 @@ Metadata tells APGAP what each sequence file represents — the organism, collec
 **The Permissions required for this operation are Lab Director or Bioinformatics User**
 
 1. Click **Sequences** tab
-1. Click **Download CSV Template**
-1. Select your **Source** **Type** of your samples from the dropdown
-1. Click **Download**
+1. Click **Export Metadata**
+1. Click **Yes, Export**
 
-![Template Download](/images/template-download.png)
+![Export Metadata](/images/export-metadata.png)
 
 The CSV will download to your browser's default download folder. It's strongly recommended to rename the file before filling it in so you can track which batch it belongs to.
 
