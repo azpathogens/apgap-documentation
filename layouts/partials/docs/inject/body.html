@@ -8,6 +8,13 @@
     max-width: 100%;
     height: auto;
   }
+
+  /* medium-zoom overlays default to z-index 1; hugo-book's fixed sidebar renders above them. */
+  /* Bump both the backdrop and the enlarged image above every hugo-book layer. */
+  .medium-zoom-overlay,
+  .medium-zoom-image--opened {
+    z-index: 9999 !important;
+  }
 </style>
 
 <!-- Screenshot zoom: click-to-enlarge on any content image, dismiss with click/esc/scroll. -->
