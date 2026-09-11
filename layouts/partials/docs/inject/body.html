@@ -1,0 +1,6 @@
+<!-- Screenshot zoom: click-to-enlarge on any content image, dismiss with click/esc/scroll. -->
+<script src="{{ "js/medium-zoom.min.js" | relURL }}"></script>
+<script>
+  // Restrict to article-body images so nav icons and the brand logo stay non-zoomable.
+  mediumZoom('.book-page img', { margin: 24, background: '#0006' });
+</script>
