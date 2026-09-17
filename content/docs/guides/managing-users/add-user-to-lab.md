@@ -24,7 +24,9 @@ From the Lab Roster:
 1. Select Bioinformatics User permissions if needed
 1. Click **Assign** **User**
 
-![Lab Roster](/images/Add-User-Lab.png)
+![Lab Roster](/images/van-to-roster.png)
+
+![Lab Roster](/images/add-user-modal.png)
 
 The user will receive a notification that they've been added to the lab.
 
