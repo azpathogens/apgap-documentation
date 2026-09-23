@@ -22,7 +22,7 @@ If you would like analyze data from another lab you can request access through t
 The Lab Director who owns those files will receive a notification. You'll be notified by email and in-app when they make a decision. If approved, the files will appear in your project.
 
 ### Important - Requesting Data from Arizona State Public Health Lab
-Requests for Arizona State Public Health Lab data from users at Arizona State University, Northern Arizona University, and University of Arizona **must first be submitted through the established Honest Broker process** and receive approval *before* making this request in the platform. 
+Requests for Arizona State Public Health Lab data from users at Arizona State University, Northern Arizona University, and University of Arizona **must first be submitted through the established Honest Broker process** and receive approval by the Arizona Department of Health Services Human Subjects Review Board *before* making this request in the platform. 
 
 After you receive approval through that process, follow the steps above, making selections in the data catalog to match the data you requested and provide your approval details in the dataset description box. 
 
