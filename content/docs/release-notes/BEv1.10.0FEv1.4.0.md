@@ -40,11 +40,9 @@ weight = 11
 
 * **Project Notebook Controls:** Allow project users to start and stop notebooks directly.  
 * **Lab Context & Dropdowns:**
-
   * Excluded inactive labs from the dataset creation lab dropdown. ([Ticket \#282](https://github.com/azpathogens/apgap-development-tickets/issues/282))  
   * Resolved issues where the lab picker falls back to the loaded lab when no lab is actively selected.  
   * Reconciled admin lab context options with flat lab navigation.
-
 * **User Management:** Automatically filter out inactive users across the system.  
 * **Batch Endpoint Action:** Updated the revoke action UI on batch endpoints to use a trash icon. ([Ticket \#247](https://github.com/azpathogens/apgap-development-tickets/issues/247))  
 * **Configuration Fixes:** Ensured production environments default to DEBUG \= False and set is\_pathogen\_key to bootstrap automatically.
