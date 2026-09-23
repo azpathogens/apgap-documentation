@@ -1,3 +1,9 @@
++++
+title = 'BE v1.10.0, FE v1.4.0'
+date = 2026-09-23T07:07:07+01:00
+weight = 11
++++
+
 ## **New Features & Enhancements**
 
 ### **Dashboard & Data Visualization**
