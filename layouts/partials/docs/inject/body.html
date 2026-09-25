@@ -1,0 +1,25 @@
+<!-- Keep wide mermaid diagrams inside the article column instead of overflowing under the sidebar. -->
+<style>
+  .book-page pre.mermaid {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  .book-page pre.mermaid svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* medium-zoom overlays default to z-index 1; hugo-book's fixed sidebar renders above them. */
+  /* Bump both the backdrop and the enlarged image above every hugo-book layer. */
+  .medium-zoom-overlay,
+  .medium-zoom-image--opened {
+    z-index: 9999 !important;
+  }
+</style>
+
+<!-- Screenshot zoom: click-to-enlarge on any content image, dismiss with click/esc/scroll. -->
+<script src="{{ "js/medium-zoom.min.js" | relURL }}"></script>
+<script>
+  // Restrict to article-body images so nav icons and the brand logo stay non-zoomable.
+  mediumZoom('.book-page img', { margin: 24, background: '#0006' });
+</script>
