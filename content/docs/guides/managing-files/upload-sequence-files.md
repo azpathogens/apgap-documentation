@@ -14,21 +14,22 @@ There are several ways to upload sequence files into APGAP.
 
 ## Upload a sequence file (GUI)
 GUI upload is the simplest way to get files into APGAP. Use this for single files or small batches where you want to upload through your browser.
-1. Click **Labs** in the top navigation bar
-1. Select your lab
 1. Click the **Sequences** tab
 1. Click **Upload** **Sequences** → **GUI** **Upload**
 1. In the dialog that appears, drag and drop your file(s) into the designated box or click the **Choose a file** link to browse for files
 1. Click **Upload** **Files** to confirm. Your file(s) will show a status of **PROCESSING** for about 5-15 minutes (depending on file size) while APGAP scans and registers them. When complete, the status will update to **DRAFT**.
 
-![Sequences Page](/images/Upload-Sequence.png)
+Note: You can also click the **Upload Files** button in the upper right corner of the Home page.
+
+![Sequences Page](/images/nav-to-sequences.png)
+![Sequences Page](/images/upload-sequences.png)
 
 
 ## Upload sequence files in bulk (Batch)
 Batch upload is designed for large volumes of files. Instead of uploading through your browser, APGAP creates a secure Google Cloud Storage endpoint that you transfer files to directly.
 
 **Step 1** — **Create a batch endpoint**:
-1. Click **Labs** → select your lab → **Sequences** tab
+1. Click **Sequences** tab
 1. Click **Upload** **Sequences** → **Command Line (Batch)**
 1. Select the **Lifetime** **Duration** for the endpoint (how long the upload window stays open)
 1. Enter a description to identify this batch

@@ -11,7 +11,7 @@ A file stays in **DRAFT** status until it has all of its required metadata. Prom
 > [!WARNING]
 **The Permissions required for this operation are Lab Director or Bioinformatics User**
 
-1. Click **Labs** → your lab → **Sequences** tab
+1. Click **Sequences** tab
 1. Click the filename or the pencil icon of a **DRAFT** file
 1. Fill in any field marked with a red asterisk. Missing required fields are also listed in the panel as *"Required: [field] is required."*
 1. Click **Save**

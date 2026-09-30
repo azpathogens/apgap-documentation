@@ -15,7 +15,7 @@ Post-analysis metadata is organized into **sets**. You build a set as a draft, t
 
 ### Publish a set of post-analysis metadata
 
-1. Click **Labs** → your lab → **Sequences** tab
+1. Click **Sequences** tab
 1. Open a **PRIMARY** file (filename or pencil icon)
 1. Click on the **Add Post-Analysis Metadata** button
 1. Start a new set and add the fields and values from your analysis

@@ -21,3 +21,6 @@ An Analytical Dataset is a named, curated collection of sequence files that you 
 
 If any files you selected belong to labs you aren't a member of, the dataset status will show **PENDING** until the Lab Directors of the other labs have approved your access requests. You'll be notified as each decision is made.
 Files from labs you already have access to are added immediately.
+
+![Create Analytical Dataset](/images/create-analytical-dataset.png)
+![Create Analytical Dataset](/images/analytical-dataset-modal.png)

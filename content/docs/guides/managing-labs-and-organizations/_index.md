@@ -13,3 +13,4 @@ Creating a lab triggers a Cloud Build pipeline that provisions a dedicated Googl
 
 Every lab must have at least one Lab Director before users can be assigned or files can be uploaded. It is recommended to assign a second Lab Director to a lab as backup in cases when the first Lab Director is unavailable.
 
+![All Labs](/images/all-labs.png)
